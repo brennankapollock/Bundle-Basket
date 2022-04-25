@@ -6,7 +6,6 @@
 
 .preview-wrapper iframe {
   height: 100%;
-
   width: 100%;
 }
 
@@ -18,4 +17,11 @@
   right: 0;
   left: 0;
   oapcity: 0;
+}
+
+.preview-error {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
 }
