@@ -7,7 +7,7 @@ const CellList: React.FC = () => {
   });
 
   const renderedCells = cells?.map((cell) => (
-    <CellListItem key={cell.id} cell={cell} />
+    <CellListItem key={cell?.id} cell={cell} />
   ));
 
   return <div>{renderedCells}</div>;
